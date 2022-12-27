@@ -1,5 +1,6 @@
 ---
 title: Accueil
+ᴴₒᴴₒᴴₒ: true
 ---
 # {{ config.site_name }}
 
