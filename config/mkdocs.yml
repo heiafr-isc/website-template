@@ -1,0 +1,22 @@
+INHERIT: base.yml
+site_url: https://mse-csel.github.io/website
+site_name: Template for mkdocs website
+site_description:  Template for mkdocs website
+copyright: "Copyright &copy; 2023 Haute école d'ingénierie et d'architecture of Fribourg"
+
+extra:
+  teacher_name: "Jacques Supcik"
+  year: '2022-2023'
+  social:
+    - icon: material/web
+      link: https://www.heia-fr.ch/fr/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/heiafr.htafr
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/HEIAFR
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/school/heiafr/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/heiafr
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/eiafr
