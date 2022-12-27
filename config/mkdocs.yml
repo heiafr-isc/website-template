@@ -1,5 +1,5 @@
 INHERIT: base.yml
-site_url: https://mse-csel.github.io/website
+site_url: https://heiafr-isc.github.io/website-template/
 site_name: Template for mkdocs website
 site_description:  Template for mkdocs website
 copyright: "Copyright &copy; 2023 Haute école d'ingénierie et d'architecture of Fribourg"
