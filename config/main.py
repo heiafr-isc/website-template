@@ -1,3 +1,10 @@
+"""
+This simple script is used to define jinja variables from environment
+variables. See the followin links for more info about this file:
+
+https://mkdocs-macros-plugin.readthedocs.io/en/latest/#create-your-own-macros-and-filters
+"""
+
 import os
 
 environement_vars = [

@@ -1,6 +1,8 @@
 docs_dir: '../docs/'
 site_dir: '../public/'
 
+copyright: "Copyright &copy; {{ today.year }} Haute école d'ingénierie et d'architecture of Fribourg"
+
 theme:
   name: material
   language: 'fr'
@@ -67,6 +69,9 @@ markdown_extensions:
   attr_list: {}
   md_in_html: {}
 
+hooks:
+  - hooks.py
+
 extra_css:
   - stylesheets/extra.css
 
@@ -82,7 +87,3 @@ plugins:
       closing_tag: '!}'
   - awesome-pages
   - macros
-  - mkdocs-simple-hooks:
-      hooks:
-        on_pre_build: "hooks:on_pre_build"
-  

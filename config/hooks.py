@@ -1,13 +1,18 @@
-import os
-import jinja2
 import logging
+import os
+from datetime import date
+
+import jinja2
 
 logger = logging.getLogger("mkdocs.hooks")
 
 
 def on_pre_build(config):
+    """
+    Build the `.pages` files from `pages.j2`
+    """
     logger.info("Running on_pre_build hook")
-    for root, dirs, files in os.walk(config["docs_dir"], topdown=False):
+    for root, _, files in os.walk(config["docs_dir"], topdown=False):
         env = jinja2.Environment(
             loader=jinja2.FileSystemLoader(root),
         )
@@ -26,3 +31,13 @@ def on_pre_build(config):
                 with open(dst, "w") as f:
                     logger.info(f"Writing {dst}")
                     f.write(content)
+
+
+def on_config(config):
+    """
+    Render the `copyright` template (usefull for the year)
+    """
+    env = jinja2.Environment()
+    for k in ["copyright"]:
+        template = env.from_string(config[k])
+        config[k] = template.render(today=date.today())

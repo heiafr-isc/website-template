@@ -379,24 +379,6 @@ jsmin = ">=3.0.1"
 mkdocs = ">=1.4.1"
 
 [[package]]
-name = "mkdocs-simple-hooks"
-version = "0.1.5"
-description = "Define your own hooks for mkdocs, without having to create a new package."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "mkdocs-simple-hooks-0.1.5.tar.gz", hash = "sha256:dddbdf151a18723c9302a133e5cf79538be8eb9d274e8e07d2ac3ac34890837c"},
-    {file = "mkdocs_simple_hooks-0.1.5-py3-none-any.whl", hash = "sha256:efeabdbb98b0850a909adee285f3404535117159d5cb3a34f541d6eaa644d50a"},
-]
-
-[package.dependencies]
-mkdocs = ">=1.2"
-
-[package.extras]
-test = ["pytest (>=4.0)", "pytest-cov"]
-
-[[package]]
 name = "mkdocs-static-i18n"
 version = "0.53"
 description = "MkDocs i18n plugin using static translation markdown files"
@@ -723,4 +705,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "66b1644305c3bde3fca2565d6021d91184076ed0a53cc10c3402d62d78a5c2f3"
+content-hash = "4e83760f63711ec364ec6fd1a9d56bb02096fa55665c41e48e4c2cf7b15c3175"
