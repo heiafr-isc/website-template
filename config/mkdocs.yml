@@ -1,5 +1,7 @@
 INHERIT: base.yml
 site_url: https://heiafr-isc.github.io/website-template/
+repo_url: https://github.com/heiafr-isc/website-template
+edit_uri: https://github.com/heiafr-isc/website-template/edit/main/docs/
 site_name: Template for mkdocs website version 2023
 site_description:  Template for mkdocs website
 
