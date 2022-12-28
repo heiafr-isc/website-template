@@ -7,13 +7,15 @@ on:
       - "main"
     tags:
       - "v*"
+
+# Change the following for conditional deployment
 env:
-  LECTURE_SHOW: 999
+  LECTURE_SHOW: 2
   EXAM_SHOW_OBJECTIVES: 999
-  EXERCISE_SHOW_DATA: 999
-  EXERCISE_SHOW_SOLUTION: 999
-  ASSIGNMENT_SHOW_DATA: 999
-  ASSIGNMENT_SHOW_SOLUTION: 999
+  EXERCISE_SHOW_DATA: 2
+  EXERCISE_SHOW_SOLUTION: 1
+  ASSIGNMENT_SHOW_DATA: 2
+  ASSIGNMENT_SHOW_SOLUTION: 1
 
 jobs:
   # Build site

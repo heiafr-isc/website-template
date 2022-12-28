@@ -1,3 +1,9 @@
 title: Travaux pratiques
 nav:
-    - index.md
+    - assignment1.md
+    {%- if env.ASSIGNMENT_SHOW_DATA | int >= 2 %}
+    - assignment2.md
+    {%- endif %}
+    {%- if env.ASSIGNMENT_SHOW_DATA | int >= 3 %}
+    - assignment3.md
+    {%- endif %}
