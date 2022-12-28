@@ -14,6 +14,15 @@ tpno: 1
 
 Lorem ipsum dolor sit amet ...
 
+``` go
+{! include "assignment1/hello.go" !}
+```
+
+!!! note "Note"
+    ``` go
+    {! include "assignment1/hello.go" !}
+    ```
+
 {{ ex() }}: Bla
 {% if assignment_show_solution >= page.meta.tpno %}
 ??? success "Solution"
