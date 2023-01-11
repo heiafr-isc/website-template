@@ -6,6 +6,7 @@ site_name: Template for mkdocs website version 2023
 site_description:  Template for mkdocs website
 
 extra:
+  show_page_revision_on_all_pages: false
   teacher_name: "Jacques Supcik"
   year: '2022-2023'
   social:

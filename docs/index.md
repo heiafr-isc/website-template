@@ -1,6 +1,6 @@
 ---
 title: Accueil
-ᴴₒᴴₒᴴₒ: true
+show_site_revision: true
 ---
 # {{ config.site_name }}
 

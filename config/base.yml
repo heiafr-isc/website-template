@@ -81,9 +81,14 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
-  - search
-  - include-markdown:
+  search: {}
+  include-markdown:
       opening_tag: '{!'
       closing_tag: '!}'
-  - awesome-pages
-  - macros
+  awesome-pages: {}
+  macros: {}
+  git-revision-date-localized:
+      enable_creation_date: false
+      locale: fr
+      timezone: Europe/Zurich
+      enabled: true
