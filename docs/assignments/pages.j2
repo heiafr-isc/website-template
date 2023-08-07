@@ -1,9 +1,9 @@
 title: Travaux pratiques
 nav:
     - assignment1.md
-    {%- if env.ASSIGNMENT_SHOW_DATA | int >= 2 %}
+    {%- if extra.assignment_week | int | int >= 2 %}
     - assignment2.md
     {%- endif %}
-    {%- if env.ASSIGNMENT_SHOW_DATA | int >= 3 %}
+    {%- if extra.assignment_week | int >= 3 %}
     - assignment3.md
     {%- endif %}
