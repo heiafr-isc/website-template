@@ -15,12 +15,12 @@ tpno: 1
 Lorem ipsum dolor sit amet ...
 
 ``` go
-{! include "assignment1/hello.go" !}
+{! include "./assignment1/hello.go" !}
 ```
 
 !!! note "Note"
     ``` go
-    {! include "assignment1/hello.go" !}
+    {! include "./assignment1/hello.go" !}
     ```
 
 {{ ex() }}: Bla
