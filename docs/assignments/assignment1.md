@@ -24,34 +24,34 @@ Lorem ipsum dolor sit amet ...
     ```
 
 {{ ex() }}: Bla
-{% if assignment_show_solution >= page.meta.tpno %}
+{% if assignment_show_solution | int >= page.meta.tpno %}
 ??? success "Solution"
     Solution ...
 {% endif %}
 
 {{ exx() }} : Bla Bla
 
-{% if assignment_show_solution >= page.meta.tpno + 0.5 %}
+{% if assignment_show_solution | int  >= page.meta.tpno + 0.5 %}
 ??? success "Solution"
     Solution ...
 {% endif %}
 
 {{ ex() }}: Bla
-{% if assignment_show_solution >= page.meta.tpno %}
+{% if assignment_show_solution | int >= page.meta.tpno %}
 ??? success "Solution"
     Solution ...
 {% endif %}
 
 {{ exx() }} : Bla Bla
 
-{% if assignment_show_solution >= page.meta.tpno + 0.5 %}
+{% if assignment_show_solution | int  >= page.meta.tpno + 0.5 %}
 ??? success "Solution"
     Solution ...
 {% endif %}
 
 {{ exx() }} : Bla Bla
 
-{% if assignment_show_solution >= page.meta.tpno + 0.5 %}
+{% if assignment_show_solution | int  >= page.meta.tpno + 0.5 %}
 ??? success "Solution"
     Solution ...
 {% endif %}
